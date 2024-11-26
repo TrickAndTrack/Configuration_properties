@@ -1,0 +1,6 @@
+#welcome service
+#Spring Boot Admin project is unable to detect or connect to the services you want to monitor. To resolve this, try adding the following properties
+spring.boot.admin.client.instance.management-url=http://localhost:8081/actuator
+spring.boot.admin.client.instance.health-url=http://localhost:8081/actuator/health
+spring.boot.admin.client.instance.service-url=http://localhost:8081
+spring.boot.admin.discovery.enabled=true
