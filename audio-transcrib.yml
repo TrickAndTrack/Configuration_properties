@@ -1,0 +1,15 @@
+spring.application.name=audio-transcrib
+server.port=8082
+
+
+#================================================================
+
+#================================================================
+#spring admin configuration
+spring.boot.admin.client.url=http://localhost:1111/
+
+
+
+#================================================================
+#Spring Actuator configuration
+management.endpoints.web.exposure.include=*
